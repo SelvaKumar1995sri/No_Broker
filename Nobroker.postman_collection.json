@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "33519db5-4232-4c67-82d2-a50c0665aa7c",
+		"name": "Nobroker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/No_broker",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					},
+					{
+						"key": "x-api-key",
+						"value": "selva",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": "http://127.0.0.1:8000/api/view_all"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/view_No_broker",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					},
+					{
+						"key": "x-api-key",
+						"value": "selva",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": "http://127.0.0.1:8000/api/view/1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/ add_house",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"house_id\": 4,\r\n        \"place\": \"pondychery\",\r\n        \"squarefeet\": 1000,\r\n        \"type\": \"2bhk\",\r\n        \"rent\": 15000.0\r\n    }"
+				},
+				"url": "http://127.0.0.1:8000/api/add_house"
+			},
+			"response": []
+		}
+	]
+}

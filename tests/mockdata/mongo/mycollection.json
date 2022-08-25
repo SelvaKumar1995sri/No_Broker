@@ -1,0 +1,23 @@
+[
+    {
+      "house_id": 0,
+      "place": "string",
+      "squarefeet": 0,
+      "type": "string",
+      "rent": 0
+    },
+    {
+        "house_id": 1,
+        "place": "tambaram",
+        "squarefeet": 800,
+        "type": "1bhk",
+        "rent": 10000
+      },
+      {
+        "house_id": 2,
+        "place": "pallavaram",
+        "squarefeet": 1000,
+        "type": "2bhk",
+        "rent": 15000
+      }
+  ]
