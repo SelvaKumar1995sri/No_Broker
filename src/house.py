@@ -52,7 +52,7 @@ def view(house_id):
 def add(house : Rent_house):
     try:
         collection = get_collection()
-        resp = collection.insert_one(house.dict())
+        resp = collection.insert_one(house)
         return {"status": "House details added successfully"}   
     except Exception as e:
         print("error on adding:" +str(e))
