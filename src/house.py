@@ -29,6 +29,9 @@ class House_list(BaseModel):
 def house_list_serializer(houselist):
     return [house.dict() for house in houselist]
 
+@app.get('/')
+def home():
+    return "Successfully created"
     
 @app.get('/api/view_all',tags=['No_broker']) 
 def view_all():  

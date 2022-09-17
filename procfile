@@ -1,1 +1,1 @@
-Web: gunicorn house:app --log-file -
+Web: gunicorn --pythonapp src house:app 

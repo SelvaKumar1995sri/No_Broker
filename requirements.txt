@@ -12,3 +12,4 @@ pytest-cov
 pytest-mongodb
 uvicorn
 Werkzeug
+gunicorn
