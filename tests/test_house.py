@@ -1,7 +1,8 @@
 from unittest.mock import patch
 import pytest
+import unittest
 import sys
-sys.path.append('C:\\Users\\selva\\Documents\\src')
+sys.path.append('C:\\Users\\selva\\Documents\\Nobroker') 
 
 from src.house import add_many, view, view_all, add
 from src.house import Rent_house,House_list
