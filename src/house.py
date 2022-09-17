@@ -30,8 +30,8 @@ def house_list_serializer(houselist):
     return [house.dict() for house in houselist]
 
     
-@app.get('/api/view_all',tags=['No_broker'])
-def view_all():
+@app.get('/api/view_all',tags=['No_broker']) 
+def view_all():  
     try:
         collection = get_collection()
         curser = list(collection.find({},{"_id":0}))
