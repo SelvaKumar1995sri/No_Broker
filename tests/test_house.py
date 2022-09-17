@@ -1,8 +1,5 @@
-import imp
-from telnetlib import STATUS
 from unittest.mock import patch
 import pytest
-import unittest
 import sys
 sys.path.append('C:\\Users\\selva\\Documents\\Nobroker')
 
