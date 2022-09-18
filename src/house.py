@@ -71,5 +71,5 @@ def add_many(house : House_list):
     except Exception as e:
         print("error on adding list :" +str(e))
 
-if __name__ == ('__main__'):
-    uvicorn.run("house:app",reload=True)
+# if __name__ == ('__main__'):
+#     uvicorn.run("house:app",reload=True)
